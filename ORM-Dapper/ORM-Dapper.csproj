@@ -9,11 +9,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Program.cs~RF14909c7a.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Dapper" Version="2.1.66" />
     <PackageReference Include="MySql.Data" Version="9.5.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="9.0.0" />
+    <PackageReference Include="Unipluss.Sign.Client" Version="1.0.2876" />
   </ItemGroup>
 
   <ItemGroup>
