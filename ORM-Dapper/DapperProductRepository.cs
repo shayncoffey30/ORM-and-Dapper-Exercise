@@ -21,7 +21,7 @@ namespace ORM_Dapper
         public void CreateProduct(string name, double price, int categoryID)
         {
             _conn.Execute("INSERT INTO products (Name, Price, CategoryID) Values (@name, @price, @categoryID);",
-                new { name = name, price = price, categoryID = categoryID, });
+                new { name = name, price = price, categoryID = categoryID,});
         }
 
         public IEnumerable<Product> GetAllProducts()
